@@ -1,0 +1,39 @@
+body {
+    background-image:url('https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/1d9df330794455.5632e40f92333.jpg');
+    background-size:auto 120vh;
+    font-family: helvetica;
+    height:120vh;
+  }
+  
+  .menuzinho {
+    background-color:yellow;
+  }
+  
+  .menuzinho ul {
+    display:flex;
+    justify-content: space-around;
+  }
+  
+  .menuzinho li {
+    list-style:none;
+  }
+  
+  a {
+    color:grey;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .site-subtitle, 
+  .site-title {
+    text-align:center;
+    color:black;  
+  }
+  
+  .site-subtitle {
+    font-style:italic;
+    font-size: large;
+  }
